@@ -1,0 +1,17 @@
+title: Biu++ Studio
+description: |
+  Passionate about building cool things with AI.
+  Biu++ Studio focuses on AI Agents, LLM training and
+  inference optimization, and Embodied Intelligence.
+url: https://biuxx.com
+half_side: left
+
+social:
+  - platform: GitHub
+    url: https://github.com/biuxxcom
+  - platform: Studio
+    url: https://biuxx.com/studio
+  - platform: X
+    url: "#"
+  - platform: LinkedIn
+    url: "#"

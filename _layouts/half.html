@@ -1,0 +1,23 @@
+---
+layout: default
+---
+{%- if site.half_side == "right" -%}
+  {%- assign content_class = "half__content half--left" -%}
+{%- else -%}
+  {%- assign content_class = "half__content" -%}
+{%- endif -%}
+
+<main>
+  <div class="{{ content_class }}">
+    <h1 class="pageTitle">Henry <span class="pageTitle-sub">/ Biu++ Studio Founder</span></h1>
+    <p class="pageContent">Passionate about building cool things with AI. Biu++ Studio focuses on Agent System, LLM Training &amp; Inference Optimization, and Embodied Intelligence.</p>
+
+    <div class="socialLinks">
+      {%- for item in site.social -%}
+        {%- assign platform = item.platform | downcase -%}
+        <a href="{{ item.url }}" class="socialLinks__link socialLInk__{{ platform }}" target="_blank" rel="noopener">{{ item.platform }}</a>
+      {%- endfor -%}
+    </div>
+  </div>
+  <div class="half__image"></div>
+</main>
